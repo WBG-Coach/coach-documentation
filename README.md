@@ -20,7 +20,7 @@
 
 ## Table of Contents
 
-For users:
+**Detailed guides for users:**
 
 - [Guide for coaches](./Coaches.md)
 - [Guide for teachers](./Teachers.md)
@@ -28,20 +28,18 @@ For users:
 
 ---
 
-For system administrators:
+**For system administrators:**
 
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
 ## About <a name = "about"></a>
-Write about 1-2 paragraphs describing the purpose of your project.
+The World Bank Group’s (WBG) Global Education Practice developed *Coach*, which aims to accelerate student learning by improving in-service teacher professional development. *Coach* encompasses support to countries through one-to-one coaching, group training sessions and workshops, and other approaches, either through in-person, remote or hybrid modalities—with the goal of increasing the quality of teacher-student interactions, key to improving student learning outcomes. For *Coach* to benefit a global community of teachers and to served teacher at a scale (at a lower cost while maximizing its impact) requires a strategic integration of digital technologies. This ***Coach Digital*** product provides a flexible approach for implementing the *Coach* method across various country contexts.
 
 ## Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
@@ -70,22 +68,11 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo.
 
-## 🔧 Running the tests <a name = "tests"></a>
-Explain how to run the automated tests for this system.
+## Maintaining the system <a name = "maintenance"></a>
+Explain how to run any automated tasks or regular maintenance for this system.
 
-### Break down into end to end tests
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-Explain what these tests test and why
-
-```
-Give an example
-```
+### Break down into end to end tasks
+Explain what these tasks are and why ... `show command/code examples`
 
 ## Usage <a name="usage"></a>
 Add notes about how to use the system.
