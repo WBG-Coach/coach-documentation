@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://avatars.githubusercontent.com/u/105060288?s=400&u=f87d168238dae0200943f1711c51d7be151b5919&v=4" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Project Title</h3>
@@ -89,7 +89,7 @@ Add additional notes about how to deploy this on a live system.
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@educationfutures](https://github.com/educationfutures) - Product concept and design
-- [@msoledade](https://github.com/msoledade) - Lead developer
+- [@msoledade](https://github.com/msoledade) - Development lead
 - [@jmoreirafilho](https://github.com/jmoreirafilho) - Backend developer
 - [@janderson-souza](https://github.com/janderson-souza) - Frontend developer
 
