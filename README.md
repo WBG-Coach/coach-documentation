@@ -3,7 +3,8 @@
  <img width=200px height=200px src="https://avatars.githubusercontent.com/u/105060288?s=400&u=f87d168238dae0200943f1711c51d7be151b5919&v=4" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Coach Digital</h3>
+<h4 align="center">World Bank Group</h4>
 
 <div align="center">
 
