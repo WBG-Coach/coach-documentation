@@ -14,7 +14,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> An online teacher coaching tool, created by the World Bank Group.
     <br> 
 </p>
 
@@ -84,8 +84,8 @@ Add additional notes about how to deploy this on a live system.
 - [tool](https://link/) - Description
 
 ## Authors <a name = "authors"></a>
-- [@educationfutures](https://github.com/educationfutures) - Product concept and design
-- [@msoledade](https://github.com/msoledade) - Development lead
+- [@educationfutures](https://github.com/educationfutures) - Product concept, design, & QA
+- [@msoledade](https://github.com/msoledade) - Sprint manager/lead developer
 - [@jmoreirafilho](https://github.com/jmoreirafilho) - Backend developer
 - [@janderson-souza](https://github.com/janderson-souza) - Frontend developer
 
