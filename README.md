@@ -45,16 +45,10 @@ The World Bank Group’s (WBG) Global Education Practice developed *Coach*, wh
 Coach Digital is comprised of three components: backend, frontend, and administrative backend. These instructions are designed for system administrators and will get you a copy of the project up and running on your local machine for development and testing purposes or for deployment. See [deployment](#deployment) for extra considerations on how to deploy the project on a live system.
 
 ### Prerequisites
- Coach Digital is built to run on php7.4, Composer, MariaDB (MySQL), and Nginx. On Debian 11, these packages may be installed with the command:
+ Coach Digital is built to run on PHP 7.4, Composer, MariaDB (MySQL), and Nginx. On Debian 11, these packages may be installed with the command:
 
 ```
 sudo apt update && sudo apt install composer nginx php-fpm mariadb-server 
-```
-If running uwf or another firewall, ensure ports 80/tcp and 443/tcp are open. Enabling SSL encryption is required. This can be done by installing [Let's Encrypt](https://letsencrypt.org) and running certbot, following SSL certificate installation instructions:
-
-```
-sudo apt install certbot
-certbot
 ```
 
 ### Installing
@@ -70,10 +64,11 @@ And repeat
 until finished
 ```
 
-And don't forget to configure Let's Encrypt (IF THIS SECTION IS NEEDED)
+If running uwf or another firewall, ensure ports 80/tcp and 443/tcp are open. Enabling SSL encryption is required. This can be done after nginx is initially configured by installing [Let's Encrypt](https://letsencrypt.org) and running certbot, following SSL certificate installation instructions:
 
 ```
-yadda yadda yadda
+sudo apt install certbot
+certbot
 ```
 
 
