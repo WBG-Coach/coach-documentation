@@ -14,7 +14,7 @@
 
 ---
 
-<p align="center"> An online teacher coaching tool, created by the World Bank Group.
+<p align="center"> An online teacher coaching tool, developed by the World Bank Group.
     <br> 
 </p>
 
@@ -42,22 +42,26 @@
 The World Bank Group’s (WBG) Global Education Practice developed *Coach*, which aims to accelerate student learning by improving in-service teacher professional development. *Coach* encompasses support to countries through one-to-one coaching, group training sessions and workshops, and other approaches, either through in-person, remote or hybrid modalities—with the goal of increasing the quality of teacher-student interactions, key to improving student learning outcomes. For *Coach* to benefit a global community of teachers and to served teacher at a scale (at a lower cost while maximizing its impact) requires a strategic integration of digital technologies. This ***Coach Digital*** product provides a flexible approach for implementing the *Coach* method across various country contexts.
 
 ## Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+Coach Digital is comprised of three components: backend, frontend, and administrative backend. These instructions are designed for system administrators and will get you a copy of the project up and running on your local machine for development and testing purposes or for deployment. See [deployment](#deployment) for extra considerations on how to deploy the project on a live system.
 
 ### Prerequisites
-What things you need to install the software and how to install them.
+ Coach Digital is built to run on php7.4, Composer, MariaDB (MySQL), and Nginx. On Debian 11, these packages may be installed with the command:
 
 ```
-Give examples
+sudo apt update && sudo apt install composer nginx php-fpm mariadb-server 
+```
+If running uwf or another firewall, ensure ports 80/tcp and 443/tcp are open. Enabling SSL encryption is required. This can be done by installing [Let's Encrypt](https://letsencrypt.org) and running certbot, following SSL certificate installation instructions:
+
+```
+sudo apt install certbot
+certbot
 ```
 
 ### Installing
-Coach Digital is comprised of three components: backend, frontend, and administrative backend. To install 
-
-Say what the step will be
+Installation instructions go here
 
 ```
-Give the example
+list commands needed 
 ```
 
 And repeat
@@ -65,6 +69,13 @@ And repeat
 ```
 until finished
 ```
+
+And don't forget to configure Let's Encrypt (IF THIS SECTION IS NEEDED)
+
+```
+yadda yadda yadda
+```
+
 
 End with an example of getting some data out of the system or using it for a little demo.
 
@@ -81,7 +92,7 @@ Add notes about how to use the system.
 Add additional notes about how to deploy this on a live system.
 
 ## Built Using <a name = "built_using"></a>
-- [tool](https://link/) - Description
+- [Laravel](https://laravel.com) - PHP framework for the backend
 
 ## Authors <a name = "authors"></a>
 - [@educationfutures](https://github.com/educationfutures) - Product concept, design, & QA
@@ -91,6 +102,6 @@ Add additional notes about how to deploy this on a live system.
 
 
 ## Acknowledgements <a name = "acknowledgement"></a>
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+Thank you to everybody who provided inspiration and helped provide feedback for this product, espcially:
+- World Bank Group Coach team
+- Ministry of Education, Mozambique
