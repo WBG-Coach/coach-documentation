@@ -68,6 +68,7 @@ If running uwf or another firewall, ensure ports 80/tcp and 443/tcp are open. En
 
 ```
 sudo apt install certbot
+
 certbot
 ```
 
@@ -91,9 +92,10 @@ Add additional notes about how to deploy this on a live system.
 
 ## Authors <a name = "authors"></a>
 - [@educationfutures](https://github.com/educationfutures) - Product concept, design, & QA
-- [@msoledade](https://github.com/msoledade) - Sprint manager/lead developer
+- [@msoledade](https://github.com/msoledade) - Sprint manager, development integrator
 - [@jmoreirafilho](https://github.com/jmoreirafilho) - Backend developer
 - [@janderson-souza](https://github.com/janderson-souza) - Frontend developer
+- TBD - UI/UX design
 
 
 ## Acknowledgements <a name = "acknowledgement"></a>
