@@ -48,7 +48,7 @@ Coach Digital is comprised of three components: backend, frontend, and administr
  Coach Digital is built to run on PHP 7.4, Composer, MariaDB (MySQL), and Nginx. On Debian 11, these packages may be installed with the command:
 
 ```
-sudo apt update && sudo apt install composer nginx php-fpm mariadb-server 
+sudo apt update && sudo apt install composer nginx mariadb-s erver php-fpm php-mysql
 ```
 
 ### Installing
