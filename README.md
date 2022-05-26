@@ -91,11 +91,12 @@ Add additional notes about how to deploy this on a live system.
 - [Laravel](https://laravel.com) - PHP framework for the backend
 
 ## Authors <a name = "authors"></a>
+- Tracy Wilichowski - Task team leader
 - [@educationfutures](https://github.com/educationfutures) - Product concept, design, & QA
-- [@msoledade](https://github.com/msoledade) - Sprint manager, development integrator
+- [@msoledade](https://github.com/msoledade) - Sprint manager & development integrator
 - [@jmoreirafilho](https://github.com/jmoreirafilho) - Backend developer
 - [@janderson-souza](https://github.com/janderson-souza) - Frontend developer
-- TBD - UI/UX design
+- Antonio Barreto - UI/UX design
 
 
 ## Acknowledgements <a name = "acknowledgement"></a>
